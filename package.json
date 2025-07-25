@@ -1,10 +1,12 @@
 {
   "name": "rayesh_portfolio",
+  "homepage": "https://kumarilaxmisharma.github.io/rayesh_portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
