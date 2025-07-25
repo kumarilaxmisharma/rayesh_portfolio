@@ -12,7 +12,7 @@ import VivoVideo45 from '../components/project/VivoVideo45';
 import OrangeVideo from '../components/project/OrangeVideo';
 import ThreeBakeryVideo from '../components/project/ThreeBakeryVideo';
 import Companies from '../components/project/Companies';
-import SatorVideo from '../components/project/SatorVideo';
+// import SatorVideo from '../components/project/SatorVideo';
 // import OrangeDetail from '../components/project/OrangeDetail';
 
 
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
 
       <ThreeBakeryVideo />
 
-      <SatorVideo />
+      {/* <SatorVideo /> */}
 
     
     </div>
