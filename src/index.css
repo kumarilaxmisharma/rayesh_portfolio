@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'Rubik Mono One';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/src/assets/fonts/RubikMonoOne-Regular.ttf') format('truetype');
-}                       
-@font-face {
-  font-family: 'Playball';
-  font-style: normal;
-  font-weight: 200;
-  src: url('/src/assets/fonts/Playball-Regular.ttf') format('truetype');
-}                       
 
 @import "tailwindcss";
 
@@ -18,9 +6,6 @@
   --font-rubik-mono: 'Rubik Mono One', monospace;
 } */
 
-@layer base {
-  body {
-    font-family: 'Playball', monospace;
-    font-family: 'Rubik Mono One', monospace;
-  }
+body {
+  font-family: 'Rubik Mono One', monospace;
 }
